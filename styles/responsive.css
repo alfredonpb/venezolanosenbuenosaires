@@ -1,0 +1,238 @@
+/*RESPONSIVE DESING*/
+@media screen and (max-width:290px){
+.navbar{
+height:50px;
+text-align: center;
+}
+.enlaces-menu{
+margin-top: -40px;
+font-size: 8px;
+margin-left: 15px; 
+}    
+h1{
+margin-top:80px;
+margin-left: -10px;
+color:rgb(3, 21, 56);
+}
+.h1-responsive{
+font-size: 13px;
+font-weight: 400;
+}
+.bandera-responsive{
+margin: 5px auto;
+}
+.bola1{ 
+background: linear-gradient(to top,  rgba(204, 195, 64, 0.9) 20%, rgba(248, 252, 14, 0.87) 100%);
+width: 50px;
+height: 15px;
+border-radius: 50px 0px  50px;
+margin-left: -5px;
+}
+.bola2{ 
+background: linear-gradient(to top,  rgba(38, 201, 241, 0.9) 20%, rgba(26, 62, 224, 0.87) 100%);
+width: 100px;
+height: 15px;
+border-radius: 40px 0px  40px;
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+flex-wrap: wrap;
+z-index: 10px;
+}
+.estrellas{
+color: #fff;
+font-size: 25px;
+padding-top: 8px;
+}
+.bola3{ 
+background: linear-gradient(to top,  rgba(223, 69, 69, 0.9) 20%, rgba(233, 8, 8, 0.87) 100%);
+width: 50px;
+height: 15px;
+border-radius: 50px 0px;
+ }
+
+/*PSICOLOGIA Y MIGRACIÓN*/
+ .intro{
+    margin-top: 5px;
+}
+.psicologia-migracion{
+    font-size:20px;
+}
+.intro img {
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-top:5px;
+    width: 150px;
+}
+.eres-lo-que-piensas{
+      font-size: medium;
+  }
+.blockquote-sicologia{
+    font-size: 12px; 
+  }
+.dos-bloques{
+    margin-top:25px;
+}
+.licenciada{
+    font-size: 15px;
+}
+.patricia img {
+    width: 150px;
+}
+.botones-patricia{
+    width: 150px;
+    text-align: center;
+    margin:0px auto;
+    font-size:12px;
+}
+.btn:hover{
+    background: #fff;
+    color:   rgb(24, 169, 236);
+    font-size: 12px;
+    border:solid 0.5px rgba(255, 255, 255, 0.8);
+}
+.patricia{
+    height: 650px;    
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top:10px; 
+}
+#apartado{
+   font-size: 14px;
+   font-weight:bold;  
+}
+.bordesuperior{
+    display: none;
+}
+.patricia ul li{
+    font-size: 13px;
+}
+
+/*INFO DE MIGRACIONES*/
+.información-para-emigrar{
+    font-size: 14px;
+    font-weight:bold; 
+}
+.titulos-de-migracion{
+    font-size: 14px;
+}
+.parrafos-migracion{
+    font-size: 12px;  
+}
+.dni{
+    margin-bottom:15px; 
+}
+.iconone{
+    width: 60px;
+    height: 60px; 
+    font-size: 30px;
+    color:rgb(236, 236, 247);   
+}
+.iconone:hover {
+    background: linear-gradient(to top,  rgba(26, 62, 224, 0.87) 20%, rgba(38, 201, 241, 0.9) 100%);
+}
+.icontwo{
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    color:rgb(236, 236, 247);
+}
+.iconthree{
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    color:#fff;
+}
+.iconthree:hover {
+    background: linear-gradient(to top,  rgba(26, 62, 224, 0.87) 20%, rgba(38, 201, 241, 0.9) 100%);
+}
+.bordesfinales{
+    width: 120px;
+    border-bottom: solid 1px #9e9c9c;
+}
+
+/*ALERTA DE RENOVACION DNI*/
+.renovacion{
+    font-size:10px;
+    font-weight: 400;
+}
+.alerta-renovacion{
+    font-size:12px;  
+}
+.plazo{
+    font-size: 13px;
+}
+
+/*PROYECTOS*/
+.sinergia{
+    margin-top: 0px;
+    height: 720px;
+}
+.titulo-proyecto{
+    font-size:15px;
+}
+.titulos-proyectos {
+    font-size: 14px;
+    font-weight: 300;
+}
+.dibujo{
+    font-size: 30px;
+    color: #f2f2f2;
+    opacity: 0.9;
+    border: transparent 2px #fff;
+}
+.dibujo:hover{
+    font-size: 35px;
+    color:#fff;
+    opacity: 1;
+    border: solid 1px #fff;
+}
+.icono1{
+    width: 70px;
+    height: 70px;
+}
+.icono1:hover {
+    width: 70px;
+    height: 70px;
+}
+.icono2{
+    width: 70px;
+    height: 70px;
+}
+.icono2:hover {
+    width: 70px;
+    height: 70px;
+}
+.icono3{
+    width: 70px;
+    height: 70px;
+}
+.icono3:hover {
+    width: 70px;
+    height: 70px;
+}
+.icono4{
+    width: 70px;
+    height: 70px;
+}
+.icono4:hover {
+    width: 70px;
+    height: 70px;
+}
+.nombre{
+display: flex;
+justify-content: space-between;
+
+}
+.alfredo{    
+    text-align: left;	    
+    font-size:8px;
+    margin-left:-3px;
+}
+.web-developer{    
+    font-size:8px;
+    margin-right:-5px;
+}
+    }
